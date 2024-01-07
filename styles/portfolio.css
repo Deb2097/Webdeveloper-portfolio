@@ -7,6 +7,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -46,4 +47,16 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700; 
 padding: 18px 35px 19px;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .pro{
+    width: 500px;
 }
